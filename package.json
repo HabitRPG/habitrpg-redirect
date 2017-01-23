@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "author": "Sabe Jones",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "dependencies": {
     "express": "^4.14.0"
   }
