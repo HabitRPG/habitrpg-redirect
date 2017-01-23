@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 
-var http = express.createServer();
-
-http.get('*', function(req, res) {
-  res.redirect('http://habitica.com' + req.url)
+app.get('*', function(req, res) {
+  res.redirect('http://habitica.com' + req.url);
 })
 
-http.listen(8080);
+app.listen(80, function() {
+  console.log('Listening on port 80');  
+});
