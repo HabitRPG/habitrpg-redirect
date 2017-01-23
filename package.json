@@ -1,0 +1,14 @@
+{
+  "name": "habitrpg-redirect",
+  "version": "1.0.0",
+  "description": "One page Node.js Express app to redirect from habitrpg.com to habitica.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sabe Jones",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
