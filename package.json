@@ -4,7 +4,8 @@
   "description": "One page Node.js Express app to redirect from habitrpg.com to habitica.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Sabe Jones",
   "license": "ISC",
