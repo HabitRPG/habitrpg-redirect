@@ -3,7 +3,7 @@ var app = express();
 var port = process.env.PORT || 8080;
 
 app.get('*', function(req, res) {
-  res.redirect('http://habitica.com' + req.url);
+  res.redirect(301, 'https://habitica.com' + req.url);
 })
 
 app.listen(port, function() {

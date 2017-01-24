@@ -11,5 +11,13 @@
   "license": "GPL-3.0",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HabitRPG/habitrpg-redirect"
+  },
+  "engines": {
+    "node": "^6.9.1",
+    "npm": "^4.0.5"
   }
 }
